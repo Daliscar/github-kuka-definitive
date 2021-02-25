@@ -10,11 +10,9 @@ $app-palette: igx-palette($primary, $secondary);
 @include igx-core();
 @include igx-theme($app-palette);
 
-html, body {
-  height: 100%;
+html,
+body {
+  // height: 100%;
 }
 
-@include igx-color-classes(
-    $prop: 'color',
-    $suffix: 'text'
-);
+@include igx-color-classes($prop: "color", $suffix: "text");
