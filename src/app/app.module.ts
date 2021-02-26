@@ -11,13 +11,15 @@ import { ComponentsComponent } from './components/components.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { BackgroundComponent } from './background/background.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponentsComponent,
     HomeComponent,
-    ContactsComponent
+    ContactsComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
