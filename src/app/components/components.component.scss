@@ -1,4 +1,4 @@
-@import '~igniteui-angular/lib/core/styles/themes/utilities';
+@import "~igniteui-angular/lib/core/styles/themes/utilities";
 
 igx-icon {
   cursor: pointer;
@@ -14,13 +14,13 @@ igx-icon {
 .content-link {
   width: 100%;
   text-decoration: none;
-  text-decoration-color: igx-color($default-palette, 'grays', 600);
+  text-decoration-color: igx-color($default-palette, "grays", 600);
   text-decoration-line: none;
 }
 
 a.content-link:visited,
 a.content-link:link {
-  color: igx-color($default-palette, 'grays', 600);
+  color: igx-color($default-palette, "grays", 600);
 }
 
 .component-row {
@@ -50,7 +50,7 @@ a.content-link:link {
 }
 
 .link-icon {
-  margin-left: auto
+  margin-left: auto;
 }
 
 .componentName {
@@ -67,7 +67,7 @@ a.content-link:link {
 .item > .person {
   position: absolute;
   margin-left: 72px;
-  top:1px;
+  top: 1px;
   left: 16px;
 }
 
@@ -75,5 +75,3 @@ a.content-link:link {
   padding: 0;
   margin: 0;
 }
-
-
